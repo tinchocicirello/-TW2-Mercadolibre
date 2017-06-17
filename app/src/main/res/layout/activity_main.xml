@@ -4,17 +4,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/fucsia"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="#ff00ff" />
 
-    <view
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#fff" />
-
-    <view
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+    <View
+        android:id="@+id/amarillo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/fucsia"
         android:background="#ffff00" />
-
-
 
 </RelativeLayout>

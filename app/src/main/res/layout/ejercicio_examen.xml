@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@android:color/black"
+        android:layout_above="@+id/layoutTerminosYCondiciones">
+
+        <Button
+            android:id="@+id/ingresarConEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingesar con e-mail"/>
+
+        <Button
+            android:id="@+id/ingresarConRedesSociales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingesar con redes sociales"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/layoutTerminosYCondiciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:text="Términos y Condiciones"/>
+</RelativeLayout>
